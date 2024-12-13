@@ -1,0 +1,170 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+    font-family: 'Nunito', sans-serif;
+  }
+  
+  #header {
+    padding: 10px 20px;
+    background-color: #111;
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #header h2 {
+    font-size: 27px;
+    color: rgb(243, 243, 243);
+  }
+  
+  #nav ul {
+    display: flex;
+  }
+  
+  #nav ul li {
+    margin: 15px;
+  }
+  
+  #nav ul li a {
+    font-size: 15px;
+    color: rgb(243, 243, 243);
+  }
+  
+  #main .titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    height: 300px;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/AcessibilidadeWeb-Fundo.png);
+    background-repeat: repeat;
+    background-size: 60%;
+    background-position: center;
+  }
+  
+  #main .titulo h1 {
+    color: white;
+    font-size: 50px;
+  }
+  
+  #main .conteudo {
+    width: 100%;
+    padding: 20px 17%;
+  }
+  
+  #main .conteudo h2 {
+    font-size: 35px;
+    color: rgb(3, 44, 71);
+    margin-bottom: 35px;
+    text-align: left;
+  }
+  
+  #main .conteudo h3 {
+    font-size: 25px;
+    color: rgb(4, 58, 94);
+    margin-bottom: 15px;
+  }
+  
+  #main .conteudo p {
+    font-size: 18px;
+    line-height: 35px;
+    margin: 0px 15px 30px;
+    text-align: justify;
+  }
+  
+  #main .conteudo .w3c {
+    text-align: center;
+  }
+  
+  #main .conteudo .w3c img {
+    width: 800px;
+    height: 180px;
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  #main .conteudo .w3c div p {
+    text-align: center;
+    font-size: 16px;
+    margin-top: -5px;
+  }
+  
+  #main .conteudo .faleconosco form {
+    background-color: white;
+    border: 4px solid rgb(3, 44, 71);
+    border-radius: 15px;
+    padding: 15px 3%;
+    margin: 0px 8%;
+}
+
+#main .conteudo form h3 {
+    margin: 10px 0px 10px 5px;
+}
+
+#main .conteudo form p {
+    color: black;
+    font-size: 22px;
+    margin: 10px 0px 10px 5px;
+}
+
+input[type=text], input[type=email], input[type=tel] {
+    width: 100%;
+    padding: 12px;
+    font-size: 21px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    margin-bottom: 10px;
+}
+
+input[type=text]:focus, input[type=email]:focus, 
+input[type=tel]:focus, textarea:focus {
+    border: 2px solid #00184b;
+}
+
+#main .conteudo .faleconosco form .sesBotao {
+    margin: 15px 15px 5px;
+    text-align: center;
+}
+
+#main .conteudo .faleconosco form #resp {
+    font-size: 24px;
+    width: 100%;
+    text-align: center;
+    color:rgb(3, 44, 71);
+}
+
+input[type=submit] {
+    width: 40%;
+    font-size: 24px;
+    background-color: greenyellow;
+    padding: 9px 7px;
+    border: 3px solid green;
+    border-radius: 5px;
+    margin: 10px 30% 20px 30%;
+}
+
+  #footer {
+    padding: 10px 20px;
+    background-color: #111;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  
+  #footer h2 {
+    font-size: 27px;
+    color: rgb(243, 243, 243);
+  }
+  
+ #footer p {
+    font-size: 15px;
+    color: white;
+  }
+  

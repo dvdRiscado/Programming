@@ -1,0 +1,20 @@
+# Carrega o segundo arquivo CSV
+df = pd.read_csv(r"arquivos/movies_reviews.csv")
+
+# Exibe o nome de todas as colunas
+print(df.columns)
+
+# Armazena todas as colunas do Datasets
+colunas = ['id', 'title', 'quote', 'score', 'date', 'author', 'publicationName',
+       'review_type']
+
+for col in colunas:
+    # Recebendo a soma de dados nulos na coluna
+    nulos = df[col].isnull().sum()
+    print(f"A coluna '{col}' possui {nulos} valores nulos.")
+
+    if nulos > 0:
+        # Substituindo os valores nulos
+        df[col] = df[col].fillna('Não informado')
+
+        print(f"A coluna '{col}' foi arrumada.")
